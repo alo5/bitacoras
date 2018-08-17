@@ -1,0 +1,24 @@
+Para los plugins:
+>ionic cordova plugin add git+https://github.com/darkbasic/ImagePicker.git --save
+>cordova plugin add cordova-plugin-android-permissions
+>cordova plugin add cordova-plugin-camera
+>cordova plugin add cordova-plugin-console
+>cordova plugin add cordova-plugin-device
+>cordova plugin add cordova-plugin-file
+>cordova plugin add cordova-plugin-file-transfer
+>cordova plugin add cordova-plugin-filepath
+>cordova plugin add cordova-plugin-native-keyboard
+>cordova plugin add cordova-plugin-nativestorage
+>cordova plugin add cordova-plugin-network-information
+>cordova plugin add cordova-plugin-screen-orientation
+>cordova plugin add cordova-plugin-splashscreen
+>cordova plugin add cordova-plugin-statusbar
+>cordova plugin add cordova-plugin-whitelist
+>cordova plugin add cordova-sqlite-storage
+>cordova plugin add ionic-plugin-keyboard
+
+Para emular con adb(en archlinux):
+> sudo udevadm control --reload
+> adb kill-server
+conectar el cel en modo debug:
+> adb reboot

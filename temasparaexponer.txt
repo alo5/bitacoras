@@ -1,0 +1,7 @@
+1. crear y publicar paquetes npm
+2. temas especificos de javascript:
+  > Promesas
+  > metodos: then, call
+  > worker
+3. setTimeOut vs document.ready
+4. observables en angular

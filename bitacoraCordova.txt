@@ -1,0 +1,2 @@
+ejecutar aveces obviar ionic:
+>cordova platform add android

@@ -1,0 +1,5 @@
+para ejecutar el proyecto en angular
+usar la version de node 8
+version de rxjs 5.5
+eliminar carpeta node-sass
+typescrip 2.8

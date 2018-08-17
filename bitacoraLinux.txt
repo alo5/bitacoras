@@ -1,0 +1,14 @@
+para actualizar las key:
+> sudo pacman -Sy archlinux-keyring
+  sudo pacman-key --populate archlinux manjaro
+  sudo pacman-key --refresh-keys\
+
+instalar display managers:
+> https://www.makeuseof.com/tag/choose-switch-linux-display-managers/
+
+Cuando un paquete solo es descargado por yaourt(*.zip):
+  >makepkg : para crear el paquete
+  >sudo pacman -U *.pkg.tar.xz : para instalar el paquete
+
+listar detalles del los discos de almacenamiento del sistema:
+  >lsblk

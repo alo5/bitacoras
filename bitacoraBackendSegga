@@ -1,0 +1,32 @@
+============TEST CON SERVIDOR APACHE============
+*modificaciones en symfony:
+*settings en apache:
+*settings en php:
+  habilitar
+*settings en mysql:
+
+======TEST CON SERVIDOR INTERNO DE PHP===========
+*MODIFICACIONES EN SYMFONY:
+  Instalar el servidor interno PHP:
+    >cd your-project/
+    >composer require --dev symfony/web-server-bundle
+  https://symfony.com/doc/3.4/setup/built_in_web_server.html
+
+*SETTINGS EN PHP:
+  editar etc/php/php.ini
+  
+   extension=pdo_mysql
+   extension=mysqli
+   extension=iconv
+  
+  ver logs:
+    localhost:8000/config.php
+    localhost:8000/_profiler
+*SETTINGS EN MYSQL:
+  Iniciar el servicio mariadb
+  Comandos para cambiar el nombre de una bd en mysql:
+    [root@percona ~]# mysqldump emp > emp.out
+    [root@percona ~]# mysql -e "CREATE DATABASE employees;"
+    [root@percona ~]# mysql employees < emp.out
+    [root@percona ~]# mysql -e "DROP DATABASE emp;"
+
